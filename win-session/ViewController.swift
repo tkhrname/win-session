@@ -20,7 +20,7 @@ class ViewController: UIViewController {
             radius: 100, // 半径
             startAngle: -1.57, // 開始角度
 //            endAngle: .pi * 2.0, // 終了角度
-            endAngle: 4.715, // 終了角度
+            endAngle: 4.715, // 終了角度  4.715
             clockwise: true) // 時計回り
         
         let grayLayer = CAShapeLayer()
@@ -30,9 +30,6 @@ class ViewController: UIViewController {
         grayLayer.lineWidth = 20.0 // 線の幅
         self.view.layer.addSublayer(grayLayer)
         
-        let line = UIView(frame: CGRect(x: self.view.frame.width / 2, y: 0, width: 1, height: self.view.frame.height))
-        line.backgroundColor = .lightGray
-//        self.view.addSubview(line)
     }
 
 
