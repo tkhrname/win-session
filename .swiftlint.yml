@@ -1,0 +1,6 @@
+# 無効にするルール
+disabled_rules:
+- type_name
+line_length:
+  warning: 300
+  error: 500
